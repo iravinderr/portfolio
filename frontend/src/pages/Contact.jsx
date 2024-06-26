@@ -1,9 +1,10 @@
-import React from 'react'
+import React from "react";
+import { Heading } from "../components";
 
-function Contact() {
+export default function Contact() {
   return (
-    <div>Contact</div>
-  )
+    <div>
+        <Heading>Contact Me</Heading>
+    </div>
+  );
 }
-
-export default Contact

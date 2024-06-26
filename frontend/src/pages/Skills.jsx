@@ -1,9 +1,7 @@
 import React from 'react'
 
-function Skills() {
+export default function Skills() {
   return (
     <div>Skills</div>
-  )
+  );
 }
-
-export default Skills

@@ -4,7 +4,7 @@ import { Outlet } from "react-router-dom";
 
 function App() {
   return (
-    <div className='w-screen h-screen overflow-x-hidden overflow-y-auto'>
+    <div className='w-screen h-screen overflow-x-hidden overflow-y-auto scroll-smooth'>
       <Header />
       <Outlet />
       <Footer />
@@ -12,4 +12,4 @@ function App() {
   )
 }
 
-export default App
+export default App;
