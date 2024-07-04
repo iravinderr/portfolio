@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Link, NavLink } from "react-router-dom";
+import ThemeButton from "./ThemeButton";
 
 export default function Header() {
   const [color, setColor] = useState(true);
@@ -22,21 +23,25 @@ export default function Header() {
       path: "/skills"
     },
     {
+      name: "Projects",
+      path: "/projects"
+    },
+    {
       name: "Contact",
       path: "/contact"
     },
   ]
 
   return (
-    <header className="sticky z-50 top-0">
-      <nav className="backdrop-blur-sm bg-NavbarBG border-gray-200">
-        <div className="h-20 flex flex-wrap justify-between items-center mx-auto max-w-screen-xl">
-          <Link to="/" onMouseOver={switchColor} onMouseLeave={switchColor} className={`w-fit h-fit ml-20 flex`}>
+    <header className="h-20 sticky z-50 top-0">
+      <nav className="h-20 backdrop-blur-sm bg-NavbarBG border-gray-200">
+        <div className="h-full flex flex-wrap justify-center items-center">
+          <Link to="/" onMouseOver={switchColor} onMouseLeave={switchColor} className={`w-fit h-auto flex`}>
             <div className={`text-3xl font-Daredevil ${color ? "text-black" : "text-CustomBlue"}`}>R</div>
             <div className={`text-3xl font-Daredevil ${color ? "text-CustomBlue" : "text-black"}`}>K</div>
           </Link>
 
-            <ul className={`grid grid-cols-4 justify-center items-center gap-4 mr-20`}>
+            <ul className={`mx-40 grid grid-cols-5 justify-center items-center gap-4`}>
               {navItems.map((item) => 
                 <li key={item.name} className="m-1 w-20">
                   <NavLink
@@ -50,6 +55,8 @@ export default function Header() {
                 </li>
               )}
             </ul>
+
+          <ThemeButton />
         </div>
       </nav>
     </header>
