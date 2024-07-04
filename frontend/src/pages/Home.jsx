@@ -7,15 +7,15 @@ export default function Home() {
       <div class="main-left">
         <div class="grad"></div>
 
-        <div class="main-heading">
+        <div class="text-black dark:text-white">
           Hi I'm <br /> Ravinder Kumar
         </div>
 
-        <div class="main-subheading">
+        <div class="text-black dark:text-white">
           I am a <span class="role"></span>
         </div>
 
-        <div class="main-description">
+        <div class="text-black dark:text-white">
           I am a software developer and this is my portfolio website.
         </div>
 
