@@ -8,7 +8,7 @@ export default function Heading({ children }) {
   }
 
   return (
-    <div onMouseOver={switchColor} onMouseLeave={switchColor} className={`${color ? `text-CustomBlue` : `text-black`} text-5xl font-Exo font-bold cursor-pointer`}>
+    <div onMouseOver={switchColor} onMouseLeave={switchColor} className={`${color ? `text-CustomBlue` : `text-black dark:text-white`} text-5xl font-Exo font-bold cursor-pointer`}>
         {children}
     </div>
   );

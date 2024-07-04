@@ -4,7 +4,7 @@ import { Container } from "../components";
 export default function About() {
   return (
     <Container heading={"About Me"}>
-      <div className="w-[800px] text-justify">
+      <div className="w-[800px] text-justify text-black dark:text-white">
         <h2 className="text-2xl font-semibold">
           Hello! <br /> I'm Ravinder.
         </h2>

@@ -15,8 +15,8 @@ function ThemeButton() {
       };
 
   return (
-      <div className={`w-16 h-9 p-1 flex ${themeMode === "light" ? "bg-gray-200" : "bg-gray-500"} items-center border-gray-300 border-2 rounded-full cursor-pointer transition-all duration-300`} onClick={themeChangeHandler}>
-        <div className={`w-6 h-6 flex justify-center items-center rounded-full transition-all duration-300 ${themeMode === "light" ? "translate-x-0 bg-white" : "translate-x-7 bg-gray-900" }`}>
+      <div className={`w-16 h-9 p-1 flex ${themeMode === "light" ? "bg-gray-100" : "bg-gray-700"} items-center border-gray-400 border-2 rounded-full cursor-pointer transition-all duration-300`} onClick={themeChangeHandler}>
+        <div className={`w-6 h-6 flex border-gray-400 border-2 justify-center items-center rounded-full transition-all duration-300 ${themeMode === "light" ? "translate-x-0 bg-white" : "translate-x-7 bg-gray-900" }`}>
           {themeMode === "light" ? (
             <WiDaySunny className="text-yellow-500" size={20} />
           ) : (
