@@ -1,10 +1,10 @@
 import React from "react";
-import { Heading } from "../components";
+import { Container } from "../components";
 
 export default function Contact() {
   return (
-    <div>
-        <Heading>Contact Me</Heading>
-    </div>
+    <Container heading={"Contact"}>
+
+    </Container>
   );
 }
