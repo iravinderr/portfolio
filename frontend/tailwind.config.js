@@ -9,7 +9,8 @@ export default {
     extend: {
       colors: {
         CustomBlue: "#1C48F5",
-        NavbarBG: "rgba(255, 255, 255, 0.1)"
+        NavbarLightBG: "rgba(255, 255, 255, 0.1)",
+        NavbarDarkBG: "rgba(0, 0, 0, 0.1)",
       },
       fontFamily: {
         Exo: ["Exo", "sans-serif"],

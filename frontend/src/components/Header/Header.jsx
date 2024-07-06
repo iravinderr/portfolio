@@ -34,7 +34,7 @@ export default function Header() {
 
   return (
     <header className="h-20 sticky z-50 top-0">
-      <nav className="h-20 backdrop-blur-sm bg-NavbarBG border-gray-200">
+      <nav className="h-20 backdrop-blur-sm bg-NavbarLightBG dark:bg-NavbarDarkBG border-gray-200 ">
         <div className="h-full flex flex-wrap justify-center items-center">
           <Link to="/" onMouseOver={switchColor} onMouseLeave={switchColor} className={`w-fit h-auto flex`}>
             <div className={`text-3xl font-Daredevil ${color ? ("text-black dark:text-white") : "text-CustomBlue"}`}>R</div>
