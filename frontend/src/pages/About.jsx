@@ -38,7 +38,7 @@ export default function About() {
         <br />
 
         <p>
-          I have also been working on <b>Front-End Web Development</b> and
+          I have been working in <b>Web Development</b> and
           learned advanced <b>HTML</b> &<b> CSS</b> and basics of{" "}
           <b>JavaScript</b> and created this portfolio website by myself. I have
           also learned the basics of <b>Back-End Web Development</b> and{" "}

@@ -15,6 +15,7 @@ export default {
       fontFamily: {
         Exo: ["Exo", "sans-serif"],
         Poppins: ["Poppins", "sans-serif"],
+        BebasNeue: ["Bebas Neue", "sans-serif"],
         Daredevil: ["daredevil"]
       }
     },

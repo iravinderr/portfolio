@@ -36,9 +36,9 @@ export default function Header() {
     <header className="h-20 sticky z-50 top-0">
       <nav className="h-20 backdrop-blur-sm bg-NavbarLightBG dark:bg-NavbarDarkBG border-gray-200 ">
         <div className="h-full flex flex-wrap justify-center items-center">
-          <Link to="/" onMouseOver={switchColor} onMouseLeave={switchColor} className={`w-fit h-auto flex`}>
-            <div className={`text-3xl font-Daredevil ${color ? ("text-black dark:text-white") : "text-CustomBlue"}`}>R</div>
-            <div className={`text-3xl font-Daredevil ${color ? "text-CustomBlue" : "text-black dark:text-white"}`}>K</div>
+          <Link to="/" onMouseOver={switchColor} onMouseLeave={switchColor} className={`w-fit h-auto flex gap-3`}>
+            <div className={`w-auto text-5xl font-semibold font-BebasNeue ${color ? ("text-black dark:text-white") : "text-CustomBlue"}`}>RAVINDER</div>
+            <div className={`w-auto text-5xl font-semibold font-BebasNeue ${color ? "text-CustomBlue" : "text-black dark:text-white"}`}>KUMAR</div>
           </Link>
 
             <ul className={`mx-40 grid grid-cols-5 justify-center items-center gap-4`}>

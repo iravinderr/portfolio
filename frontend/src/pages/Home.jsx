@@ -1,5 +1,5 @@
 import React from "react";
-import { Container } from "../components";
+import { Button, Container } from "../components";
 
 export default function Home() {
   return (
@@ -19,7 +19,8 @@ export default function Home() {
           I am a software developer and this is my portfolio website.
         </div>
 
-        <div class="button">Hire Me</div>
+        <Button>Hire Me</Button>
+
       </div>
     </Container>
   );
