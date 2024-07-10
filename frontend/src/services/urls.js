@@ -1,0 +1,1 @@
+export const resumeUrl = "https://ravinderkr.netlify.app/";

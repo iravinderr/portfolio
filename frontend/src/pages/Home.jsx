@@ -1,7 +1,10 @@
 import React from "react";
 import { Button, Container } from "../components";
+import { openInNewTab } from "../services/functions";
+import { resumeUrl } from "../services/urls";
 
 export default function Home() {
+
   return (
     <Container>
       <div class="main-left">
@@ -19,7 +22,7 @@ export default function Home() {
           I am a software developer and this is my portfolio website.
         </div>
 
-        <Button>Hire Me</Button>
+        <Button onClick={() => openInNewTab(resumeUrl)} >Hire Me</Button>
 
       </div>
     </Container>
