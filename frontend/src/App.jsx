@@ -7,7 +7,7 @@ function App() {
     <div className='w-screen h-screen overflow-x-hidden overflow-y-auto scroll-smooth bg-white dark:bg-black'>
       <Header />
       <Outlet />
-      <Footer />
+      {/* <Footer /> */}
     </div>
   )
 }
