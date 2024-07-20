@@ -16,13 +16,9 @@ export default function Home() {
       backDelay: 1000,
     };
 
-    // elRef refers to the <span> element
     const typed = new Typed(el.current, options);
 
-    // Destroy Typed instance during cleanup to stop animation
-    return () => {
-      typed.destroy();
-    };
+    return () => typed.destroy();
   }, []);
 
   return (
@@ -39,7 +35,7 @@ export default function Home() {
             I am a <span className="role text-CustomBlue font-semibold" ref={el}></span>
           </div>
 
-          <div class="text-black dark:text-white">
+          <div class="text-gray-400 font-light">
             I am a software developer and this is my portfolio website.
           </div>
 
